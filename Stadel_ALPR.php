@@ -86,7 +86,6 @@
             
             if ($rotation != 0)
             {
-                echo("Retter rotation" . PHP_EOL);
                 $img = imagerotate($img, $rotation, 0);
             }
         }
